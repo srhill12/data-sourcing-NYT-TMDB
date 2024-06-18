@@ -1,15 +1,12 @@
-# data-sourcing-challenge
+README: New York Times and The Movie Database (TMDB) Data Extraction and Analysis
+Overview
+This project involves extracting movie reviews containing the keyword "love" from the New York Times (NYT) API and enriching this data with additional movie details from The Movie Database (TMDB) API. The final dataset combines the review data with detailed movie information, providing a comprehensive view of the movies reviewed by NYT.
 
-## Purpose:
-In this challenge I am taking data from both the New York Times and TMDB to help people find movie reviews and related movies. First, data was extracted separately from both these sources, and then merged together. This was done using API knowledge gained and practiced during class and Module 6 activities.
+Requirements
+Python 3.x
+requests library
+pandas library
+dotenv library
 
-## Works Cited:
-Starter code was provided and methods from the activities in Module 6 were used as inspiration and as a guide to completing this assignment.
-
-Xpert Learning Assistant was used in  particular when implementing the counter.
-
-Online sources include W3 schools for code and Pandas.pydata.org for various arguments that were not explicitly shown in-depth during class.
-
-Throughout my notebook, you may notice comments that I made during initial work, I left them in place to show a roadmap into my workflow or need to see issues I encountered as I worked.
-
-One block of code I got from W3 schools and was shared with my TA during a Saturday extra study session. It was employed due to an issue I encountered where the function provided by the starter code was telling me that data was already a string. I will leave in place, but commented out.
+Conclusion
+This project successfully extracts and merges movie review data from the New York Times and additional movie details from The Movie Database. The resulting dataset provides a rich source of information for further analysis or reporting.
